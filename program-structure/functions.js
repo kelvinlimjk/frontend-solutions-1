@@ -7,5 +7,5 @@
  */
 
 exports.ageOnVenus = function (ageInSeconds) {
-  your_answer
+  return math.round(ageInSeconds/ 31557600/ 0.61519726)
 }
