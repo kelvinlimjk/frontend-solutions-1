@@ -13,7 +13,7 @@ do {
    }
 } while (chessBoard < 9);
  */
-
+exports.chessBoard = function () {
   var count = 0
   while (count < 8) {
     if (count % 2 === 0) {
@@ -23,5 +23,7 @@ do {
     }
     count++
   }
+}
+
 
 exports.chessBoard = your_answer
