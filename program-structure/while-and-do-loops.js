@@ -10,7 +10,7 @@ do {
    if (chessBoard % 2 === 0) {
    console.log("# # # #");
    } else {
-   console.log(" # # #");
+   console.log(" # # # ");
    }
 } while (chessBoard < 9);
 
