@@ -7,7 +7,11 @@ var chessBoard = 0;
 
 do {
    chessBoard += 1;
-   console.log("########");
+   if (chessBoard % 2 === 0) {
+   console.log("# # # #");
+   } else {
+   console.log(" # # #");
+   }
 } while (chessBoard < 9);
 
 exports.chessBoard = your_answer
