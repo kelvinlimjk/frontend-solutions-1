@@ -4,5 +4,9 @@
  */
 
 exports.hello = function (name) {
-  your_answer
+  if (!name) {
+    return "Hello, World!"
+  } else {
+    return "Hello, " + name + "!"
+  }
 }
