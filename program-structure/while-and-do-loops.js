@@ -24,6 +24,3 @@ exports.chessBoard = function () {
     count++
   }
 }
-
-
-exports.chessBoard = your_answer
