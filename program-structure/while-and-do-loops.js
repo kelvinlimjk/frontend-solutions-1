@@ -8,7 +8,6 @@ var chessBoard = 0;
 do {
    chessBoard += 1;
    console.log("########");
-   console.log(\n);
 } while (chessBoard < 9);
 
 exports.chessBoard = your_answer
