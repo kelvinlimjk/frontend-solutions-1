@@ -8,9 +8,9 @@ var chessBoard = 0;
 do {
    chessBoard += 1;
    if (chessBoard % 2 === 0) {
-   console.log("# # # #");
+   console.log("# # # # ");
    } else {
-   console.log(" # # # ");
+   console.log(" # # # #");
    }
 } while (chessBoard < 9);
 
